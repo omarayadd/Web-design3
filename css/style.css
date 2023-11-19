@@ -1,0 +1,60 @@
+.sixth-section{
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/menGroup.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.seventh-section{
+    height: 450px;
+    width: 100%;
+    background-image: url(../images/ayhagajpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.column-bg {
+    background-size: cover;
+    color: white;
+    height: 400px;
+  }
+  
+  .column-1 {
+    background-image: url('../images/g.webp');
+  }
+  
+  .column-2 {
+    background-image: url('../images/a.webp');
+  }
+  
+  .column-3 {
+    background-image: url('../images/b.png');
+  }
+
+  .overley{
+    background-color: rgba(29, 28, 28, 0.8);
+    width: 100%;
+ 
+  }
+
+  .column-bg:hover {
+    transform: scale(0.9);
+  }
+
+  .column-bg:hover .overley{
+    background-color: rgb(15, 15, 86, 0.8);
+  }
+
+  .trapezium-img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+    max-width: 100%;
+    height: auto;
+  }
+
+  .trapezium-img1 {
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    max-width: 100%;
+    height: auto;
+  }
