@@ -5,21 +5,23 @@ font-family: 'Tajawal', sans-serif;
 font-size: 20px;
 }
 
-.sixth-section{
-    height: 400px;
+
+.container-fluid1 {
+    height: 450px;
     width: 100%;
-    background-image: url(../images/menGroup.jpg);
+    background-image: url(../images/p.webp);
     background-size: cover;
     background-attachment: fixed;
 }
 
-.seventh-section{
-    height: 450px;
-    width: 100%;
-    background-image: url(../images/ayhagajpg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+.container-fluid2 {
+  height: 450px;
+  width: 100%;
+  background-image: url(../images/ayhagajpg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 
 
 .column-bg {
@@ -66,7 +68,7 @@ font-size: 20px;
     height: auto;
   }
 
-  /* Custom styles for changing the accordion color to orange */
+
 .accordion-item {
   background-color: orange;
 }
@@ -74,12 +76,64 @@ font-size: 20px;
 
 
 .accordion-button:hover {
-  background-color: darkorange; /* Change the hover color if desired */
+  background-color: darkorange; 
 }
 
-/* Optional: Change the color of the active accordion header */
 .accordion-button[aria-expanded="true"] {
   background-color: darkorange;
 }
 
   
+
+ .a::after {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0;
+  transition-duration: 1s;
+  background-color: #e1b151;
+  opacity: 0;
+}
+
+ .a:hover::after {
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.a::before {
+  content: ""; 
+  position: absolute; 
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 0;
+  transition-duration: 1s;
+  background-color: #e1b151;
+  opacity: 0;
+}
+
+ .a:hover::before {
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+
+.mx-auto {
+  overflow: hidden;
+  transition: transform 0.3s; /* Add a smooth transition effect for scaling */
+}
+
+.mx-auto:hover .ayhaga {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+.square {
+  width: 100%; /* Make the square take up 100% width of its container */
+  padding: 20px; /* Add padding for content spacing */
+  text-align: center;
+  color: #fff; /* Text color */
+}
