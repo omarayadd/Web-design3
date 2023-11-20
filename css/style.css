@@ -1,3 +1,10 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tajawal', sans-serif;
+font-size: 20px;
+}
+
 .sixth-section{
     height: 400px;
     width: 100%;
@@ -58,3 +65,21 @@
     max-width: 100%;
     height: auto;
   }
+
+  /* Custom styles for changing the accordion color to orange */
+.accordion-item {
+  background-color: orange;
+}
+
+
+
+.accordion-button:hover {
+  background-color: darkorange; /* Change the hover color if desired */
+}
+
+/* Optional: Change the color of the active accordion header */
+.accordion-button[aria-expanded="true"] {
+  background-color: darkorange;
+}
+
+  
