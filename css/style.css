@@ -8,7 +8,7 @@ font-size: 20px;
 
 .ab {
     height: 450px;
-    width: 100%;
+    /* width: 100%; */
     background-image: url(../images/p.webp);
     background-size: cover;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ font-size: 20px;
 
 .abb {
   height: 450px;
-  width: 100%;
+  /* width: 100%; */
   background-image: url(../images/ayhagajpg.jpg);
   background-size: cover;
   background-attachment: fixed;
